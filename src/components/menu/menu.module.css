@@ -1,0 +1,35 @@
+.container{
+    width: 100%;
+    background-color: var(--dark2-color);
+    width: 100%;
+    height: 282px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    top: -90px;
+}
+.close_box{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.close_btn{
+    position: relative;
+    top: 32px;
+    right: 48px;
+}
+
+.container ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style-type: none;
+}
+.container ul a{
+    font-family: inter;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    list-style: none;
+    text-decoration: none;
+}

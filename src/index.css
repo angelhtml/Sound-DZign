@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+  --dark-color: #000000;
+  --red-color: #E63946;
+  --pink-color: #FF6864;
+  --yellow-color: #FFCA28;
+  --dark2-color: #212121;
+  --dark3-color: #181E1E;
+}
+
+
+
+html,body{
+  margin: 0;
+  display: block;
+  background-color: #000000;
+}
+
+.wrapper{
+  max-width: 80%;
+  margin: 0 auto;
+}
+.name{
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+.demo_btn{
+  width: 170px;
+  height: 39px;
+  background-color: var(--red-color);
+  padding: 10px 32px;
+  font-family: inter;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.demo_btn:hover{
+  background-color: var(--pink-color);
+}
+
+a{
+  text-decoration: none;
+}
+
+button{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 834px) {
+  .wrapper{
+    max-width: 90%;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(99, 99, 99);
+  border-radius: 5px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: var(--pink-color);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--red-color);
+}

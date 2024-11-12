@@ -1,0 +1,86 @@
+.navbar{
+    min-width: 80%;
+    max-width: 754px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+    top: 24px;
+    border-radius: 0 0 10px 10px;
+    backdrop-filter: blur(40px);
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.nav_box1{
+    flex: 20%;
+    height: 19px;
+}
+.nav_box2{
+    flex: 70%;
+}
+.nav_box3{
+    flex: 10%;
+    display: none;
+}
+
+/* logo */
+.logo_name{
+    display: flex;
+    font-family: inter;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding-left: 32px;
+}
+.name_p1{
+    color: white;
+}
+.name_p2{
+    color: var(--red-color);
+}
+
+/* nav_links */
+.nav_box2 ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    font-family: inter;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: white;
+    gap: 50px;
+    justify-content: flex-end;
+    width: 90%;
+    margin: 0 auto;
+}
+.nav_box2 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav_box2 ul li a:hover{
+    color: var(--pink-color);
+}
+
+/* menu bar*/
+.menu_bar{
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 834px){
+    .navbar{
+        width: 90.4%;
+    }
+}
+
+@media screen and (max-width: 737px){
+    .navbar{
+        width: 82.93%;
+        top: 16px;
+    }
+    .nav_box2{
+        display: none;
+    }
+    .nav_box3{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
